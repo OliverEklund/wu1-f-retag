@@ -41,3 +41,51 @@
     gap: 1rem;
     font-family: sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+.hero{
+    display: grid;
+    grid-template-areas: "hero";
+    place-items: center;
+}
+.hero > * {
+    grid-area: hero;
+}
+
+.hero-content{
+    color:black;
+}
+
+.hero-content h1{
+    font-size:3.5rem;
+}
+.hero-content h2{
+    font-size:1.4rem;
+}
+
+.container {
+    width: min(100vw - 3rem, 56rem);
+    margin-inline: auto;
+}
+
+.region{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.testimonials-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.testimonials-list li {
+    max-width: 10rem;
+}
+
+.testimonials img {
+    border-radius: 100%;
+}
