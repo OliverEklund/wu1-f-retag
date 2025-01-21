@@ -7,7 +7,6 @@
     font-size: 1.2rem;
 }
 
-
 .site-head {
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +22,9 @@
     border-bottom: 4px solid black;
 
     padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .site-head a {
@@ -87,5 +89,14 @@ img {
 }
 
 .testimonials img {
-    border-radius: 100%;
+    #border-radius: 100%;
+    
+}
+
+footer {
+    text-align: left;
+    padding: 3px;
+    background-color: navy;
+    color: white;
+   padding-inline: 4rem;
 }
