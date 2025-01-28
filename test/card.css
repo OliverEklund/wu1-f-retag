@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-family: 1.2rem;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.card{
+    border: 1px solid black;
+    max-width: 18rem;
+    border-radius: 5px;
+    
+    display:flex;
+    flex-direction: column;
+
+    img{
+        max-width: 100%;
+    }  
+}
+
+.card-content{
+    padding:1rem
+}
