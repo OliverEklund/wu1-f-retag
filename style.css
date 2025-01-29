@@ -84,25 +84,35 @@ img {
     font-family: sans-serif;
 }
 
-.testimonials-list{
-    list-style: none;
+
+.card-list{
     display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
     justify-content: space-around;
-    gap: 1rem;
-    font-family: sans-serif;
-    display: flex;
-    gap: 1rem;
-    font-family: sans-serif;
+}
+
+.card{
+    border: 1px solid black;
+    max-width: 18rem;
+    display:flex;
     flex-direction: column;
+    font-family: sans-serif;
+    font-size: 1rem;
+
+    img{
+        max-width: 100%;
+    }  
 }
 
-.testimonials-list li {
-    max-width: 20rem;
+.card-content{
+    padding:1rem
+
 }
 
-.testimonials img {
-    #border-radius: 100%;
-    
+.card-content h3:hover {
+    color: navy;
+    text-decoration: underline;
 }
 
 footer {
