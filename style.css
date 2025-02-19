@@ -61,6 +61,12 @@ img {
     font-family: sans-serif;
 }
 
+.text-title{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    display: flex;
+}
+
 .hero-content h1{
     font-size:3.5rem;
 }
